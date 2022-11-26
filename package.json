@@ -1,9 +1,12 @@
 {
+  "homepage": "https://mohamedashrraf222.github.io/travel-journal",
   "name": "my-travel-journal",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
